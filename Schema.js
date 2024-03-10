@@ -2,7 +2,7 @@ const { Sequelize, DataTypes } = require('sequelize');
 
 // Creating a Sequelize instance connecting to your MySQL database
 
-const sequelize = new Sequelize('your_database_name', 'your_username', 'your_password', {
+const sequelize = new Sequelize('db', 'username', 'password', {
   host: 'localhost', 
   dialect: 'mysql'   
 });
